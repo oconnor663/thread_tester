@@ -1,6 +1,8 @@
 [package]
-name = "scratch"
+name = "threads"
 version = "0.1.0"
 authors = ["Jack O'Connor <oconnor663@gmail.com>"]
 
 [dependencies]
+blake2b_simd = "*"
+crossbeam = "*"
